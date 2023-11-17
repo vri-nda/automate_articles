@@ -6,11 +6,11 @@ import requests
 app = Flask(__name__)
 
 # OpenAI API key
-openai.api_key = ''
+openai.api_key = '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'
 
 # Google API key and Custom Search engine ID
-google_api_key = ''
-custom_search_engine_id = ''
+google_api_key = 'AIzaSyBFvXMTybZaW2E-mkLcAtealaH5seEyZRI'
+custom_search_engine_id = '12f6ffa31c7ef4c73'
 
 @app.route('/')
 def index():
